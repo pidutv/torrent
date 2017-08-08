@@ -1,0 +1,20 @@
+{
+  "name": "torrent",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/karl-chan/google-drive-torrent.git"
+    }
+  ]
+}
